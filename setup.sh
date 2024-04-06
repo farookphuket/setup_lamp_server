@@ -1,4 +1,11 @@
 #!/bin/bash
+#
+#
+
+
+
+TODAY=$(date +"%Y-%m-%d_at_%H:%M:%S")
+USER_NAME=$USER
 
 # =============== first run ============
 echo "this will setup LAMP server"
@@ -12,7 +19,7 @@ MAIN_DIR=~/INSTALL_BY_SCRIPT
 # enter the dir
 pushd $MAIN_DIR
 
-echo "we are now in $MAIN_DIR and download the installer file"
+echo "we are now in $MAIN_DIR and downloading... the config file"
 git clone https://github.com/farookphuket/setup_lamp_server.git 
 
 # now will get the folder "setup_lamp_server" 

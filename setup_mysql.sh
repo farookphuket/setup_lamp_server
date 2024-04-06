@@ -77,3 +77,11 @@ sleep 5s
 
 
 sudo systemctl restart httpd
+
+
+
+# =================== run test in browser
+
+firefox -- http://lav8.x1 &
+
+firefox -- http://localhost/phpmyadmin &
