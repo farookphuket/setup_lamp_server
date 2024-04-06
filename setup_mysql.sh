@@ -46,7 +46,6 @@ sudo chmod 775 -R /etc/webapps/phpmyadmin
 
 
 
-
 echo "phpmyadmin installed and config "
 
 #   we going to create new web project for the testing

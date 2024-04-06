@@ -19,6 +19,13 @@
                     dear friend! your web dev environment has been setup you 
 can now start using it. 
                 </p>
+<p>
+if you cannot login to mysql or phpmyadmin now just go to 
+<br />
+<span>
+https://phoenixnap.com/kb/access-denied-for-user-root-localhost
+</span>
+</p>
             </div>
            <div class="col-lg-6">
 
